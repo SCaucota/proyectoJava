@@ -17,9 +17,9 @@
 	String categoria = request.getParameter("categoria");
 	
 	
-	MySqlConexion conexion = new MySqlConexion();
+	//MySqlConexion conexion = new MySqlConexion();
 	
-	Connection cn = conexion.conectar();
+	Connection cn = MySqlConexion.conectar();
 	
 	
 	try{
